@@ -3,6 +3,7 @@
 	padding: 10px;
 	margin-bottom: 5px;
 	cursor: pointer;
+	border-radius: 5px;
 }
 
 .postArea:hover {

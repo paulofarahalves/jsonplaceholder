@@ -4,15 +4,19 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import User from './pages/User';
 import Footer from './components/Footer';
+import './App.css';
 
 function App() {
 	return (
 		<>
 			<Header />
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/user/:id" element={<User />} />
-			</Routes>
+			<div className="page">
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/user/:id" element={<User />} />
+				</Routes>
+			</div>
+
 			<Footer />
 		</>
 	);
