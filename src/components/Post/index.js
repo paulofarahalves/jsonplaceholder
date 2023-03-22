@@ -31,8 +31,10 @@ export default function Post({ post, users }) {
 		<div className="postArea" onClick={() => handlePostClick(post)}>
 			<li key={post.id} className="post">
 				<h4>
-					<Link to={`/user/${post.userId}`}>{user?.username}</Link>:{' '}
-					{post.title}
+					<Link to={`/jsonplaceholder/user/${post.userId}`}>
+						{user?.username}
+					</Link>
+					: {post.title}
 				</h4>
 			</li>
 			<>

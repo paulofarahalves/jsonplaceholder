@@ -5,7 +5,7 @@ import './style.css';
 export default function Header() {
 	return (
 		<nav id="header">
-			<Link to={'/'}>
+			<Link to={'/jsonplaceholder'}>
 				<h4>Home</h4>
 			</Link>
 		</nav>

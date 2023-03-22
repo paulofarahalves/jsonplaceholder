@@ -12,8 +12,11 @@ function App() {
 			<Header />
 			<div className="page">
 				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/user/:id" element={<User />} />
+					<Route path="/jsonplaceholder" element={<Home />} />
+					<Route
+						path="/jsonplaceholder/user/:id"
+						element={<User />}
+					/>
 				</Routes>
 			</div>
 
