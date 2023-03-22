@@ -1,0 +1,13 @@
+#header {
+	padding: 20px 40px;
+	border-bottom: 1px solid #000;
+}
+
+#header a,
+#header a:hover {
+	text-decoration: none;
+}
+
+#header h4:hover {
+	color: #3b3b3b;
+}
