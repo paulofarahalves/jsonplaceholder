@@ -34,7 +34,8 @@ export default function Post({ post, users }) {
 					<Link to={`/jsonplaceholder/user/${post.userId}`}>
 						{user?.username}
 					</Link>
-					: {post.title}
+					{': '}
+					{post.title}
 				</h4>
 			</li>
 			<>

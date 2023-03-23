@@ -12,11 +12,12 @@
 
 #header a,
 #header a:hover {
+	color: #000;
 	text-decoration: none;
 }
 
 #header h4:hover {
-	color: #819de6;
+	color: #36459e;
 }
 
 @media (max-width: 425px) {

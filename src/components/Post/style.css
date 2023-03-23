@@ -30,8 +30,8 @@
 	list-style-type: none;
 }
 
-a {
-	color: #000;
+.postArea a {
+	color: #36459e;
 	text-decoration: none;
 }
 
@@ -39,6 +39,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-a:visited {
-	color: #000;
+.postArea a:visited {
+	color: #36459e;
 }
